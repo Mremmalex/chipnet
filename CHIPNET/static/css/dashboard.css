@@ -1,0 +1,83 @@
+body{
+    background-color: #f4f4f4;
+}
+.navbar-light{
+    background-color: #c0392b !important;
+}
+.navbar-nav .nav-item{ 
+    float: right !important;
+   
+}
+.navbar-nav .nav-link{
+    color:#ecf0f1 !important;
+    font-weight: 500 !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #ffbbbc !important;
+}
+.navbar-toggler-icon{
+    background-color: #ecf0f1 !important;
+}
+.navbar-brand{
+    color:#ecf0f1 !important;
+}
+.main-color-bg{
+    background-color: #e74c3c !important;
+    border-color:#c0392b !important;
+    color: #ffffff !important;
+}
+#header{
+    background-color: #333333;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+#header .create{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.breadcrumb{
+    background-color: #cccccc;
+}
+.breadcrumb li{
+    color: #333333;
+}
+.badges{
+    float: right !important;
+}
+.list-group .active{
+    background-color: #c0392b !important;
+    border-color: #c0392b !important;
+}
+.progress-bar{
+    background-color: #333333;
+    color: #ffffff;
+}
+.card-header{
+    background-color: #c0392b !important;
+    border-color: #c0392b !important;
+    color: #ffffff !important;
+}
+.main-card{
+    height: auto !important;
+    border: none !important;
+}
+.main-card .sub-card{
+    background-color: #cccccc;
+    border: none !important;
+    text-align: center !important;
+}
+.main-card .row{
+    padding-left: 60px !important;
+    padding-right: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+#footer{
+    background-color: #333333 !important;
+    color: #ffffff;
+    padding: 30px;
+    margin-top: 150px !important;
+   
+  
+}

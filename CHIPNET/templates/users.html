@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <title>Admin Area | Pages</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+      
+        
+    </head>
+
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Chipnet</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Dashboard </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="pages.html">Pages </a>
+                          </li>
+                          <li class="nav-item active">
+                            <a class="nav-link" href="posts.html">Posts</a>
+                        </li>
+                        <li class="nav-item active">
+                                <a class="nav-link" href="users.html">Users <span class="sr-only">(current)</span></a>
+                        </li>
+                      </ul>
+                      <ul class="navbar-nav mr-5">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Welcome, Chris </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="logout.html">Logout</a>
+                            </li>
+                          </ul>
+                    </div>
+                  </nav>
+                  <header id="header" class="mt-0">
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col-md-10">
+                                <h1 class="pt-3"><i class="fa fa-cog"></i> Users <small>Manage Users</small></h1>   
+                              </div>
+                              <div class="col-md-2">
+                                    <div class="dropdown create">
+                                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Create Content
+                                            </a>
+                                          
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" type="button" data-toggle="modal" data-target="#addPage">Add Page</a>
+                                             <a class="dropdown-item" href="#">Add Post</a>
+                                            <a class="dropdown-item" href="#">Add User</a>
+                                        </div>
+                                    </div>
+                              </div>
+                          </div>
+                      </div>
+                  </header>
+                  <section id="breadcrumb">
+                      <div class="container-fluid">
+                          <ol class="breadcrumb mt-2">
+                              <li><a href="index.html">Dashboard</a> </li>
+                              <li class="active pl-3">Users</li>
+                          </ol>
+                      </div>
+                  </section>
+                  <section id="main">
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col-md-3">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action active">
+                                        Dashboard
+                                    </a>
+                                    <a href="pages.html" class="list-group-item list-group-item-action"><i class ="fa fa-list-alt"></i> Pages <span class="badge badge-dark badges">12</span></a>
+                                    <a href="posts.html" class="list-group-item list-group-item-action"> <i class ="fa fa-pencil"></i> Posts <span class="badge badge-dark badges">33</span> </a>
+                                    <a href="users.html" class="list-group-item list-group-item-action"> <i class ="fa fa-user"></i> Users <span class="badge badge-dark badges">203</span></a>
+                                </div>
+                                <div class="well mt-4">
+                                  <h4>Disk Space Used</h4>
+                                  <div class="progress mb-2">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                  </div>
+                                  <h4>Bandwidth Used</h4>
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-9">
+                                <div class="card main-card">
+                                    <h5 class="card-header">Users</h5>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text" placeholder="filter pages ...">
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Email</th>
+                                                <th scope="col">Date</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>mark@gmail.com</td>
+                                                <td>12 July, 2020</td>
+                                                <td><a class="btn btn-default">Edit</a> <a class="btn btn-danger">Delete</a></td>    
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>jacob@gmail.com</td>
+                                                <td>12 July, 2020</td>
+                                                <td><a class="btn btn-default">Edit</a> <a class="btn btn-danger">Delete</a></td>    
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>larry@gmail.com</td>
+                                                <td>12 July, 2020</td>
+                                                <td><a class="btn btn-default">Edit</a> <a class="btn btn-danger">Delete</a></td>    
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    
+                                </div>
+                                <!-- Latest Users -->
+                               
+                             </div>
+                        </div>
+                  </section>
+                  <!-- Modals -->
+                  <!-- Add Page -->
+                  <div class="modal fade" id="addPage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <form>
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Add Page</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="form-group">
+                                    <label for="exampleFormControlInput1">Page Title</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Page Body</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                  <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Published</label>
+                                  </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Meta tags</label>
+                                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Meta Description</label>
+                                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                             </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </form>
+                          </div>  
+                      </div>
+                    </div>
+                    <footer id="footer" class="text-center">
+                        <p class="">Copyright reserved &copy; 2020</p>
+                    </footer>
+            </body>
+    
+   <script src="js/jquery-3.2.1.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   
+</html>
